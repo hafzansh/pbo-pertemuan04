@@ -9,7 +9,7 @@ public class hitungNilai {
         System.out.println("| No. |         Nama         | Test 1 | Test 2 | Rata-rata |");
         System.out.println("------------------------------------------------------------");
         
-        for (int i = 0 ; i <= 5; i++){		
+        for (int i = 0 ; i < 5; i++){		
             rata[i] = (nilai1[i] + nilai2[i]) / 2;
             int no = i+1;
             System.out.println("   " + no + "            " + nama[i] + "            " + nilai1[i] + "       " + nilai2[i] + "        " + rata[i]);
