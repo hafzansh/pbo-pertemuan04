@@ -7,11 +7,10 @@ public class loop {
         System.out.println("Isi gelas sekarang :" + isiGelas + "ml");
         System.out.println("Isi gelas keitka penuh : " + penuh + "ml");
 
-        do{
-            isiGelas++;
+        for(isiGelas =  0; isiGelas <=penuh ; isiGelas++){
             System.out.println("Sedang mengisi gelas..");
             System.out.println("Isi gelas sekarang : " + isiGelas + "ml");            
-        }while(isiGelas != penuh);
+        }
         
         System.out.println("Finale, Isi gelas sekarang : " + isiGelas + "ml");
     }
